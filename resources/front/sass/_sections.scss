@@ -1,0 +1,164 @@
+body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+main {
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+
+    section {
+        overflow-x: hidden;
+    }
+}
+
+.fs-lora {
+    font-family: 'Lora', serif;
+}
+
+.fs-64 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+
+.fs-22 {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.fs-16 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.fs-15 {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.fs-14 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.fs-12 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.lt {
+    letter-spacing: 0.15em;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    &::after {
+        content: "";
+    }
+
+    & button {
+        padding: 6px 10px;
+        border: none;
+    }
+}
+
+.text-decoration-none {
+    &:hover {
+        color: $orange;
+    }
+}
+
+.swiper-button-next,
+.swiper-button-next {
+    z-index: 13;
+}
+
+.btn-outline-orange {
+    color: white !important;
+    padding: 14px 30px;
+}
+
+.btn-orange {
+    color: white !important;
+    //padding: 14px 30px;
+}
+
+.rounded-5-left {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.rounded-5-right {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.rounded-20-left {
+    border-radius: 20px 0px 0px 20px;
+
+    @media(max-width:992px) {
+        border-radius: 20px 20px 0px 0px;
+    }
+}
+
+.rounded-20-right {
+    border-radius: 0px 20px 20px 0px;
+
+    @media(max-width:992px) {
+        border-radius: 0px 0px 20px 20px;
+    }
+}
+
+.rounded-20-top {
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.rounded-20-bottom {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.btn-imoveis {
+    border: 1px solid $primary;
+    background-color: white;
+    color: $primary;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.btn-imoveis-cinza {
+    background-color: $cinza !important;
+}
+
+.btn {
+    &:hover {
+        & svg {
+            & rect {
+                fill: black;
+            }
+        }
+    }
+}
+
+.ratio-unstyled {
+    width: initial;
+    height: initial;
+    left: initial;
+    top: initial;
+}

@@ -1,0 +1,46 @@
+.products-breadcrumb {
+    margin-top: 11rem;
+}
+
+.btn-imoveis-secondary {
+    border: 1px solid $secondary;
+    background-color: $cinza;
+    color: $secondary;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.btn-imoveis-secondary-white {
+    background-color: white !important;
+}
+
+.produtos-detalhes-swiper {
+    .swiper-pagination-bullet-active {
+        --swiper-theme-color:
+            $orange !important;
+        background: $orange !important;
+        border: none !important;
+        opacity: 1 !important;
+    }
+
+    .swiper-pagination-bullet {
+        //border: 1px solid $orange;
+        background: $white;
+        opacity: 0.3;
+    }
+
+    & button {
+        &:hover {
+            background: white;
+        }
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 10px);
+
+        @media(max-width: 767px) {
+            margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 5px);
+        }
+    }
+}

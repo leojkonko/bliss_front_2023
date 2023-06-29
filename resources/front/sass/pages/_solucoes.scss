@@ -1,0 +1,46 @@
+.comparar-swiper {
+    .fs-16 {
+        @media(max-width: 576px) {
+            font-size: 14px !important;
+            line-height: 20px !important;
+        }
+
+    }
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    background: transparent;
+}
+
+.select2-container--default .select2-selection--multiple {
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid white;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: none;
+}
+
+textarea.select2-search__field {
+    color: white;
+
+    &::placeholder {
+        color: white;
+    }
+}
+
+.select2-search__field {
+    color: white;
+}
+
+.select2-container--default .select2-selection--multiple {
+    //border: none;
+    background-image: url(../../../../public/front/images/icons/seta.svg);
+    //background-image: url("../../front/images/icons/seta.svg");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    padding-bottom: 10px;
+}
