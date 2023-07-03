@@ -108,6 +108,24 @@
             margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 5px);
         }
     }
+
+    .swiper-button-next {
+        right: 5px;
+        top: 30%;
+
+        @media(max-width: 992px) {
+            right: 25px;
+        }
+    }
+
+    .swiper-button-prev {
+        left: 5px;
+        top: 30%;
+
+        @media(max-width: 992px) {
+            left: 25px;
+        }
+    }
 }
 
 #compra {
@@ -261,5 +279,15 @@
                 width: 100%;
             }
         }
+    }
+}
+
+
+.swiper-button-prev3,
+.swiper-button-next4 {
+    top: 10%;
+
+    @media(max-width: 767px) {
+        top: 5%;
     }
 }

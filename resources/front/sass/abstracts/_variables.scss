@@ -74,7 +74,8 @@ $warning: $yellow;
 $danger: $red;
 $light: $gray-100;
 $dark: $gray-900;
-$orange: #F58634;
+$orange: #E67F4E;
+$cinza: #f5f5f5;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -1524,8 +1525,8 @@ $breadcrumb-margin-bottom: 0;
 $breadcrumb-bg: null;
 $breadcrumb-color: $dark;
 $breadcrumb-hover-color: $dark;
-$breadcrumb-divider-color: $secondary;
-$breadcrumb-active-color: $secondary;
+$breadcrumb-divider-color: $orange;
+$breadcrumb-active-color: $orange;
 $breadcrumb-divider: url("data:image/svg+xml,%3Csvg width='11' height='11' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='#{$breadcrumb-divider-color}' %3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M8.25 4.5l7.5 7.5-7.5 7.5' /%3E%3C/svg%3E%0A");
 $breadcrumb-divider-flipped: $breadcrumb-divider;
 $breadcrumb-border-radius: null;

@@ -56,8 +56,9 @@ new Swiper(".imoveis-internos-swiper", {
     slidesPerView: 1,
     spaceBetween: 15,
     navigation: {
-        nextEl: ".imoveis-internos-swiper .imoveis-internos-button",
-        prevEl: ".imoveis-internos-swiper .imoveis-internos-button2",
+        //nextEl: ".imoveis-internos-swiper .imoveis-internos-button",
+        nextEl: ".imoveis-internos-swiper .imoveis-internos-button2",
+        prevEl: ".imoveis-internos-swiper .imoveis-internos-button",
     },
     pagination: {
         el: ".imoveis-internos-swiper .swiper-pagination",
@@ -75,6 +76,31 @@ new Swiper(".imoveis-swiper", {
     },
     pagination: {
         el: ".imoveis-swiper .swiper-pagination",
+        type: "bullets",
+        //dynamicBullets: true,
+        clickable: true,
+    },
+    breakpoints: {
+        992: {
+            slidesPerView: 4,
+        },
+        767: {
+            slidesPerView: 2,
+        },
+        576: {
+            slidesPerView: 1,
+        },
+    },
+});
+new Swiper(".relacionados-swiper", {
+    slidesPerView: 1,
+    spaceBetween: 15,
+    navigation: {
+        nextEl: ".relacionados-swiper .swiper-button-next",
+        prevEl: ".relacionados-swiper .swiper-button-prev",
+    },
+    pagination: {
+        el: ".relacionados-swiper .swiper-pagination",
         type: "bullets",
         //dynamicBullets: true,
         clickable: true,
@@ -117,6 +143,20 @@ new Swiper(".comparar-swiper", {
         576: {
             slidesPerView: 2,
         },
+    },
+});
+new Swiper(".depoimentos-swiper", {
+    slidesPerView: 1,
+    spaceBetween: 120,
+    navigation: {
+        nextEl: ".depoimentos-swiper .swiper-button-next",
+        prevEl: ".depoimentos-swiper .swiper-button-prev",
+    },
+    pagination: {
+        el: ".depoimentos-swiper .swiper-pagination",
+        type: "bullets",
+        //dynamicBullets: true,
+        clickable: true,
     },
 });
 new Swiper(".equipe-swiper", {

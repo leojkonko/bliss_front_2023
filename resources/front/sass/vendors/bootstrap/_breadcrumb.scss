@@ -38,7 +38,7 @@
 
     &.active {
         //color: var(--#{$prefix}breadcrumb-item-active-color);
-        color: $secondary;
+        color: $orange;
 
         @include media-breakpoint-down(sm) {
             max-width: 15ch;

@@ -85,25 +85,49 @@
                 </div>
             @endif
         </section>--}}
+        <section class="py-2">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex align-items-center gap-1">
+                        <p class="fs-16 fw-400 me-2">
+                            Filtrando por
+                        </p>
+                        <button class="btn btn-primary">
+                            Tudo
+                        </button>
+                        <button class="btn btn-outline-primary">
+                            Notícias
+                        </button>
+                        <button class="btn btn-outline-primary">
+                            Artigos
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
 <section class="py-lg-2">
     <div class="container">
         <div class="row">
             @foreach (range(0,4) as $image)
-            <div class="swiper-slide position-relative col-lg-4 mt-2">
-              <a href="{{ route_lang('blog-details') }}">            
-                    <div class="ratio ratio-1x1">
-                        <div class="z-index-1 rounded-20" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);transform: rotate(-180deg);"></div>
-                        <img class="w-100 h-100 object-fit-cover rounded-20" src="{{ asset("front/images/backgrounds/blog.png") }}" alt="">
-                        <div class="bottom-0 z-index-2" style="top: initial !important;">
-                            <div class="position-absolute bottom-0 start-0 p-1 p-lg-1 p-xl-2 p-xxl-3">
-                                <button class="mb-lg-0-50 mb-xl-0 btn rounded-36 py-0-25 px-0-50 fs-12 p-700 border-2 btn-orange text-white" >DICAS</button>
-                                <p class="text-white fs-32 fw-700 mt-1 m-0">5 dicas para você encontrar o imóvel perfeito!</p>
-                                <p class="text-white fs-16 fw-400 mt-1">O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. [...]</p>
-                            </div>
-                        </div>
+            <a href="{{ route_lang('blog-details') }}" class="col-lg-3 col-md-4 col-6 mb-2 swiper-slide position-relative">
+                <div class="ratio ratio-1x1">
+                    <div class="z-index-2 start-0 top-0" style="left: 3%; top:3%;">
+                        <button class="btn-orange btn btn-imovel fs-12 fw-400 rounded-5">Notícias</button>
                     </div>
-                </a>  
-             </div>
+                    <img class="w-100 h-100 object-fit-cover rounded-5" src="{{ asset("front/images/backgrounds/casa-home.png") }}" alt="" title="">
+                </div>
+                <p class="text-secondary mt-2 fs-14 fw-400 mb-0">Postado há 2 semanas</p>
+                <p class="fs-16 fw-700">Dicas para escolher o imóvel dos seus sonhos</p>
+                <p class="text-secondary fs-16 fw-400">
+                    Quer obter o melhor valor pelo seu imóvel? Descubra estratégias eficazes para valorizá-lo antes de colocá-lo à venda e conquiste negociações vantajosas!
+                </p>
+                <button class="btn btn-primary rounded-5">
+                    Leia mais
+                    <svg class="ms-0-50" width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 5.5L5 5.5M-9.53674e-07 5.5L5 5.5M5 5.5L5 0.500001M5 5.5L5 10.5" stroke="white" stroke-linejoin="round"/>
+                    </svg>                                                                                                  
+                </button>
+            </a>
             @endforeach
         </div>
     </div>

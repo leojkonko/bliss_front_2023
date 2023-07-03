@@ -19,6 +19,21 @@
         border-top: 1px solid rgba($black, 0.1);
     }
 
+    .text-lg-primary {
+        @media(min-width: 992px) {
+            color: $primary;
+        }
+
+        color: $orange;
+    }
+
+    .text-lg-dark {
+        @media(min-width: 992px) {
+            color: $dark;
+        }
+
+        color: white;
+    }
 }
 
 .btn-outline-light {
@@ -47,4 +62,9 @@
             }
         }
     }
+}
+
+.copyright {
+    border: none;
+    border-top: 2px solid $secondary;
 }

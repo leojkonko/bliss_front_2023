@@ -60,9 +60,9 @@
         z-index: 3;
         //color: var(--#{$prefix}pagination-active-color);
         //border: 1px solid #808080;
-        border-radius: 50%;
-        background: $orange;
-        color: white;
+        border-radius: 5px;
+        border: 1px solid $orange;
+        //color: white;
         //@include gradient-bg(var(--#{$prefix}pagination-active-bg));
         //border-color: var(--#{$prefix}pagination-active-border-color);
     }

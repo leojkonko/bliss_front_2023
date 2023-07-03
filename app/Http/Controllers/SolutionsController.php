@@ -10,9 +10,9 @@ class SolutionsController extends Controller
     public function index(SiteService $site, PageCompanyService $page)
     {
         $site->setAlternates('solutions')
-            ->setTitle('Comparar')
-            ->setBreadTitle('Comparar')
-            ->pushBreadCrumb('Comparar')
+            ->setTitle('Bliss select')
+            ->setBreadTitle('Bliss select')
+            ->pushBreadCrumb('Bliss select')
             ->setDescriptionIfNotEmpty($page->getPage()->description)
             ->setKeywordsIfNotEmpty($page->getPage()->keywords);
 

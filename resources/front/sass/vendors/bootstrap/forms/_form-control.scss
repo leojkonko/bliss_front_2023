@@ -1,6 +1,10 @@
 //
 // General form controls (plus a few specific high-level interventions)
 //
+.form-control-breadcrumb {
+    background-color: transparent !important;
+}
+
 .text-area {
     border-bottom: none !important;
 }
@@ -78,7 +82,7 @@
     color: $dark;
     //color: $input-color;
     //background-color: $input-bg;
-    background-color: $cinza;
+    background-color: white;
     background-clip: padding-box;
     border: none;
     border-bottom: 1px solid $dark;

@@ -41,7 +41,7 @@
             </a>
         </li>
         <li>
-            <a href="{{ route_lang('company') }}" title="Empresa" class="@if (Route::is('company')) active @endif fs-16 fw-400 text-decoration-none text-white">Sobre nós</a>
+            <a href="{{ route_lang('company') }}" title="Empresa" class="@if (Route::is('company')) active @endif fs-16 fw-400 text-decoration-none text-white">Sobre a empresa</a>
         </li>
         <li>
             <a href="{{ route_lang('products') }}" class="@if (Route::is('products')) active @endif fs-16 fw-400 text-decoration-none text-white">
@@ -49,7 +49,10 @@
             </a>
         </li>
         <li>
-            <a href="{{ route_lang('blog') }}" title="Blog" class="@if (Route::is('blog')) active @endif fs-16 fw-400 text-decoration-none text-white">Informativos</a>
+            <a href="{{ route_lang('solutions') }}" title="solutions" class="@if (Route::is('solutions')) active @endif fs-16 fw-400 text-decoration-none text-white">Bliss Select</a>
+        </li>
+        <li>
+            <a href="{{ route_lang('blog') }}" title="Blog" class="@if (Route::is('blog')) active @endif fs-16 fw-400 text-decoration-none text-white">Blog</a>
         </li>
         <li>
             <a href="{{ route_lang('contact') }}" title="Contato" class="@if (Route::is('contact')) active @endif fs-16 fw-400 text-decoration-none text-white">Contato</a>

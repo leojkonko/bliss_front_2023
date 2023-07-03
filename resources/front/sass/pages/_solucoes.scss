@@ -23,6 +23,26 @@
     border: none;
 }
 
+.select-products,
+.offcanvas-start-mobile {
+    textarea.select2-search__field {
+        color: $dark !important;
+
+        &::placeholder {
+            color: $dark !important;
+        }
+    }
+
+    .select2-container--default .select2-selection--multiple {
+        border-bottom: 1px solid $dark !important;
+    }
+
+    .select2-container--default .select2-selection--multiple {
+        background-image: url(../../../../public/front/images/icons/seta-dark.svg);
+        //background-image: url("../../front/images/icons/seta-dark.svg");
+    }
+}
+
 textarea.select2-search__field {
     color: white;
 
@@ -43,4 +63,65 @@ textarea.select2-search__field {
     background-position-x: 100%;
     background-position-y: 50%;
     padding-bottom: 10px;
+}
+
+.text-bread-solutions {
+    @media(max-width: 992px) {
+        //width: 70%;
+    }
+}
+
+.select2-container {
+    @media(max-width: 400px) {
+        //width: 120px !important;
+    }
+
+}
+
+.img-selo {
+    @media(min-width: 992px) {
+        margin-left: auto;
+        margin-top: -8rem;
+    }
+
+    margin: auto;
+    padding-top: 100px;
+}
+
+
+.offcanvas {
+    .select-products {
+        textarea.select2-search__field {
+            color: white !important;
+
+            &::placeholder {
+                color: white !important;
+            }
+        }
+
+        .select2-container--default .select2-selection--multiple {
+            border-bottom: 1px solid white !important;
+        }
+
+        .select2-container--default .select2-selection--multiple {
+            background-image: url(../../../../public/front/images/icons/seta.svg);
+            //background-image: url("../../front/images/icons/seta-dark.svg");
+        }
+    }
+
+    .form-control-breadcrumb {
+        border-bottom: 1px solid white !important;
+        color: white !important;
+
+        &::placeholder {
+            color: white !important;
+        }
+    }
+}
+
+.offcanvas-start {
+    .form-control {
+        background-color: transparent !important;
+        border-bottom: 1px solid $dark;
+    }
 }

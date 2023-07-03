@@ -4,26 +4,26 @@
     <main id="blog" class="overflow-hidden" style="">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 m-auto">
+                <div class="col-lg-10 m-auto mt-lg-4 mt-2">
                     <div class="ratio ratio-21x9">
                         <img class="w-100 h-100 object-fit-cover rounded-20" src="{{ asset("front/images/backgrounds/blog-details.png") }}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-10 m-auto position-relative end-0 top-0 d-lg-block" >
                         <div class="pe-lg-4">
-                            <h2 class="fs-22 fw-700 w-100 text-lg-start text-center mt-4">Por que imóveis mobiliados estão tão em alta?</h2>
-                            <h2 class="fs-20 fw-700 w-100 text-lg-start text-center mt-1">O que é o Lorem Ipsum?</h2>
+                            <h2 class="fs-32 fs-lora fw-700 w-100 text-lg-start text-center mt-4">Por que imóveis mobiliados estão tão em alta?</h2>
+                            <h2 class="fs-16 fw-700 w-100 text-lg-start text-center mt-1">O que é o Lorem Ipsum?</h2>
                             <p class="fs-16 fw-400 text-lg-start text-center">
                                 O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
                             </p>
-                            <h2 class="fs-20 fw-700 w-100 text-lg-start text-center mt-1">O que é o Lorem Ipsum?</h2>
+                            <h2 class="fs-16 fw-700 w-100 text-lg-start text-center mt-1">O que é o Lorem Ipsum?</h2>
                             <p class="fs-16 fw-400 text-lg-start text-center">
                                 É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de "Conteúdo aqui, conteúdo aqui", tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto usado por omissão, e uma pesquisa por "lorem ipsum" irá encontrar muitos websites ainda na sua infância. Várias versões têm evoluído ao longo dos anos, por vezes por acidente, por vezes propositadamente (como no caso do humor).
                             </p>
                         </div>
                         <div class="mt-2 pb-2 pb-lg-4">
                             <div class="d-flex gap-1 gap-lg-3 align-items-center flex-wrap flex-column-reverse flex-lg-row">
-                                <a href="{{ route_lang('blog') }}" class="rounded-0 btn btn-orange rounded-20 w-max mt-1 mt-sm-0">Voltar</a>
+                                <a href="{{ route_lang('blog') }}" class="rounded-0 btn btn-orange rounded-5 w-max mt-1 mt-sm-0">Voltar</a>
                                 <div class="d-flex flex-column flex-lg-row gap-0-50 align-items-center flex-wrap">
                                     <span class="fw-700">
                                         Compartilhar:
