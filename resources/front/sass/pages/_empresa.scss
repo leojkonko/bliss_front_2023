@@ -28,6 +28,10 @@
 .card-equipe {
     height: 540px;
 
+    @media(min-width: 1200px) and (max-width: 1500px) {
+        max-height: 30rem;
+    }
+
     &:hover {
         .ratio {
             & img {
@@ -48,11 +52,22 @@
                 & .text-mistery {
                     display: flex;
                 }
+
+                & .text-mistery-icons {
+                    display: flex;
+                }
             }
         }
     }
 
+    .ratio-card {
+        @media(max-width: 992px) {
+            max-width: 12rem;
+        }
+    }
+
     .ratio {
+
         & img {
             width: 100%;
             height: 100%;
@@ -72,8 +87,11 @@
     }
 
     .card-conteudo {
+        position: relative;
+        top: 0;
+
         @media(max-width: 992px) {
-            top: 28%;
+            top: 0%;
         }
 
         & .p-2 {
@@ -81,11 +99,20 @@
 
             //transition: margin-top 0.3s;
             & .text-mistery {
+
                 @media(max-width: 992px) {
                     display: flex;
+                    @include text-truncation(5);
                 }
 
                 display: none;
+            }
+
+            & .text-mistery-icons {
+
+                @media(max-width: 992px) {
+                    display: flex;
+                }
             }
         }
     }

@@ -108,7 +108,7 @@
                      
                             @foreach (range(0,4) as $image)
                                 <div class="d-block swiper-slide card-equipe" style="background-image: url({{ url("/front/images/backgrounds/equipe-bg.png") }});">
-                                    <div class="ratio ratio-1x1">
+                                    <div class="ratio ratio-1x1 ratio-card">
                                         <a href="{{ url("/front/images/backgrounds/equipe.png") }}" data-fancybox="gallery" class="d-block video-slide swiper-slide">
                                             <div class="ratio ratio-21x9 h-100">
                                                 <img class="w-100 h-100 object-fit-cover" src="{{ url("/front/images/backgrounds/equipe.png") }}" alt="Icone">
@@ -122,7 +122,7 @@
                                             <p class="text-cinza fs-16 text-mistery d-none ">
                                                 O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos.
                                             </p>
-                                            <div class="d-flex gap-1 text-mistery d-none">
+                                            <div class="d-flex gap-1 text-mistery-icons d-none">
                                                 <a href="" class="border border-light p-0-50 d-flex">
                                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6695 2.32533C12.165 0.826667 10.1647 0.000666667 8.03383 0C3.64279 0 0.0689973 3.556 0.0669877 7.928C0.0663178 9.32533 0.43341 10.6893 1.13075 11.892L0 16L4.2229 14.8973C5.38648 15.5293 6.69675 15.862 8.02981 15.8627H8.03316C12.4235 15.8627 15.998 12.306 16 7.934C16.0013 5.816 15.1734 3.82333 13.6695 2.32533ZM8.03383 14.5233H8.03115C6.84279 14.5233 5.67787 14.2053 4.661 13.6047L4.41917 13.462L1.91317 14.116L2.58237 11.684L2.42495 11.4347C1.76178 10.3853 1.4121 9.17267 1.41277 7.928C1.41411 4.29467 4.38501 1.33867 8.03718 1.33867C9.80565 1.33867 11.4683 2.02533 12.7183 3.27067C13.9683 4.51667 14.6562 6.172 14.6556 7.93267C14.6535 11.5673 11.6833 14.5233 8.03383 14.5233ZM11.6659 9.588C11.4669 9.48867 10.4883 9.00933 10.3054 8.94333C10.1232 8.87733 9.99054 8.844 9.85723 9.042C9.72393 9.24 9.34344 9.68667 9.22688 9.81933C9.11099 9.95133 8.99443 9.968 8.79548 9.86867C8.59652 9.76933 7.95478 9.56067 7.19447 8.88533C6.60297 8.36 6.20306 7.71133 6.08717 7.51267C5.97128 7.314 6.07511 7.20733 6.17425 7.10867C6.26401 7.02 6.3732 6.87733 6.47302 6.76133C6.5735 6.64667 6.60632 6.564 6.67331 6.43133C6.73963 6.29933 6.7068 6.18333 6.65656 6.084C6.60632 5.98533 6.20841 5.01 6.04296 4.61333C5.88151 4.22667 5.7174 4.27933 5.59481 4.27333C5.47892 4.26733 5.34628 4.26667 5.21298 4.26667C5.08034 4.26667 4.86464 4.316 4.68244 4.51467C4.50023 4.71333 3.98576 5.19267 3.98576 6.16733C3.98576 7.14267 4.69918 8.08467 4.79832 8.21667C4.89747 8.34867 6.20172 10.35 8.19862 11.208C8.67356 11.412 9.04467 11.534 9.33339 11.6253C9.81034 11.776 10.2444 11.7547 10.5874 11.704C10.9699 11.6473 11.765 11.2247 11.9312 10.762C12.0973 10.2993 12.0973 9.902 12.0471 9.82C11.9975 9.73667 11.8649 9.68733 11.6659 9.588Z" fill="white"/>
@@ -133,7 +133,7 @@
                                                         <path d="M13.6331 13.6337H11.2622V9.92074C11.2622 9.03528 11.2464 7.89593 10.0291 7.89593C8.79436 7.89593 8.60514 8.86024 8.60514 9.85688V13.6337H6.23506V5.99806H8.51131V7.04122H8.54285C9.00724 6.24801 9.86981 5.77414 10.7884 5.80804C13.1915 5.80804 13.6339 7.38894 13.6339 9.4445L13.6331 13.6337ZM3.55985 4.95412C2.79978 4.95412 2.184 4.33832 2.184 3.57822C2.184 2.81813 2.79978 2.20233 3.55985 2.20233C4.31991 2.20233 4.93569 2.81813 4.93569 3.57822C4.93569 4.33832 4.31991 4.95412 3.55985 4.95412ZM4.74489 13.6337H2.37166V5.99806H4.74489V13.6337ZM14.815 0.000896178H1.18031C0.536146 -0.00620013 0.00788449 0.510253 0 1.15444V14.8456C0.00788449 15.4906 0.536146 16.007 1.18031 15.9999H14.815C15.4607 16.0078 15.9913 15.4913 16 14.8456V1.15365C15.9905 0.507888 15.4599 -0.0085656 14.815 0.000107663" fill="white"/>
                                                     </svg>                                                                                                             
                                                 </a>
-                                                <div class="ms-auto">
+                                                <div class="ms-auto d-sm-none d-md-none d-md-flex">
                                                     <button class="btn btn-orange fs-12">
                                                         Assista ao meu vídeo
                                                         <svg class="ms-0-50" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -141,6 +141,14 @@
                                                         </svg>                                                                                                                                                                                  
                                                     </button>
                                                 </div>
+                                            </div>
+                                            <div class="col-12 d-none d-sm-flex d-md-flex d-lg-none mt-1">
+                                                <button class="btn btn-orange fs-12">
+                                                    Assista ao meu vídeo
+                                                    <svg class="ms-0-50" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14ZM5.5 9.59808L10 7L5.5 4.40192L5.5 9.59808Z" fill="white"/>
+                                                    </svg>                                                                                                                                                                                  
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
