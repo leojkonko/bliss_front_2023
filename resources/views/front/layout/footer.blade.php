@@ -189,7 +189,7 @@
     <div class="py-0-50 copyright position-relative z-index-3 mt-2 mt-lg-4">
         <div class="px-lg-2 ">   
             <div class="row">
-                <div class="col-lg-3 d-flex justify-content-center d-none d-lg-block">
+                <div class="col-lg-3 d-flex justify-content-center d-none d-lg-flex">
                     <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
                         <a href="{{ route_lang('home') }}" class="d-block m-auto m-lg-0">
                             <img class="" width="80px" src="{{ asset('front/images/logos/logo-ellite.svg') }}" title="Página principal" alt="Logo {{ env('APP_NAME') }}">
@@ -209,7 +209,7 @@
                     @inject('site', 'App\\Services\\SiteService')
                         <a href="{{ route_lang('privacy') }}" style="white-space: initial;" class="small text-muted text-decoration-none my-2 my-lg-0 fs-14" title="Política de privacidade">Política de privacidade</a>
                 </div> 
-                <div class="col-lg-9 d-flex justify-content-center d-none d-lg-block">
+                <div class="col-lg-9 d-flex justify-content-center d-none d-lg-flex">
                     <div class="col-lg-6 col-12 d-flex justify-content-start align-items-center">
                         <small class="text-muted small text-center text-lg-start px-1 px-lg-0 ps-lg-4">
                             <svg class="me-0-50" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
