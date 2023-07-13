@@ -39,11 +39,10 @@
 .btn-outline-light {
     &:hover {
         & svg {
-            fill: black;
 
             & path {
                 stroke: black;
-                fill: black;
+                //fill: black;
             }
         }
     }

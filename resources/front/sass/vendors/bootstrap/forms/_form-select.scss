@@ -10,6 +10,13 @@
     font-weight: 400 !important;
 }
 
+.form-select-mobile {
+    background: transparent !important;
+    border: none;
+    border-bottom: 1px solid $dark;
+    padding: 0.25em 0.5em !important
+}
+
 .form-select-cinza {
     color: #808080 !important;
     background-color: white !important;

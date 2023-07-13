@@ -47,16 +47,36 @@
                             background: #808080;"></div>
                                     <div class="ps-lg-3">
                                         <div class="row">
-                                            @foreach (range(0,4) as $banner)
-                                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center align-items-center">
+                                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center align-items-center mb-2 mt-1">
                                                 <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" name="states[]" multiple="multiple" 
-                                                data-placeholder="Status do imóvel">
+                                                data-placeholder="Tipo do imóvel">
                                                     <option value="asda1">Selecione um status</option>
                                                     <option value="asda2">Selecione um status</option>
                                                     <option value="asda3">Selecione um status</option>
                                                 </select>
                                             </div>
-                                            @endforeach
+                                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center align-items-center mb-2 mt-1">
+                                                <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" name="states[]" multiple="multiple" 
+                                                data-placeholder="Cidade">
+                                                    <option value="asda1">Selecione um status</option>
+                                                    <option value="asda2">Selecione um status</option>
+                                                    <option value="asda3">Selecione um status</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center align-items-center mb-2 mt-1">
+                                                <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" name="states[]" multiple="multiple" 
+                                                data-placeholder="Bairro">
+                                                    <option value="asda1">Selecione um status</option>
+                                                    <option value="asda2">Selecione um status</option>
+                                                    <option value="asda3">Selecione um status</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 position-relative d-flex justify-content-center align-items-center mb-2 mt-1">
+                                                <input type="text" class="form-control form-control-select" placeholder="Valor mín.">
+                                            </div>
+                                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 position-relative d-flex justify-content-center align-items-center mb-2 mt-1">
+                                                <input type="text" class="form-control form-control-select" placeholder="Valor máx.">
+                                            </div>
                                             <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center">
                                                 <button class="btn btn-orange rounded-5 my-2" style="padding: 8px 26px;">
                                                     Buscar

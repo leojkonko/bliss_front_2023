@@ -31,7 +31,7 @@
                                 </div>
                                 
                                 <div class="col-lg-4 d-flex align-items-center">
-                                    <img class="img-selo" width="180px" src="{{ asset("front/images/backgrounds/selo.png") }}" alt="" title="" style="margin-top: -4rem;">
+                                    <img class="img-selo" width="180px" src="{{ asset("front/images/backgrounds/selo.png") }}" alt="" title="">
                                 </div>                                
                             </div>
                             @endif
@@ -61,36 +61,86 @@
         <div class="row bg-cinza rounded-5-top m-auto p-1 d-lg-none select-products" style="background-image: url({{ asset("front/images/backgrounds/bg-solutions.png") }});background-size: cover;">
             <div class="col-lg-12 m-auto pt-1">
                 <div class="row">
-                    @foreach (range(0,3) as $banner)
-                        <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center m-auto p-0-50">
-                            <div class="w-100 d-flex justify-content-center">
-                                <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" data-placeholder="Tipo do imóvel"
-                                name="states[]" multiple="multiple" data-placeholder="Status do imóvel">
-                                    <option value="sd">Selecione um status</option>
-                                </select>
-                            </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center m-auto p-0-50 mt-0-50">
+                        <div class="w-100 d-flex justify-content-center">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" data-placeholder="Tipo do imóvel"
+                            name="states[]" multiple="multiple" data-placeholder="Status do imóvel">
+                                <option value="sd">Selecione um status</option>
+                            </select>
                         </div>
-                    @endforeach
-                </div>
-            </div>  
-            <div class="col-lg-12 m-auto pt-1">
-                <div class="row">
-                    @foreach (range(0,3) as $banner)
-                        <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center m-auto p-0-50">
-                            <div class="w-100 d-flex justify-content-center">
-                                <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" data-placeholder="Tipo do imóvel"
-                                name="states[]" multiple="multiple" data-placeholder="Status do imóvel">
-                                    <option value="sd">Selecione um status</option>
-                                </select>
-                            </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center m-auto p-0-50 mt-0-50">
+                        <div class="w-100 d-flex justify-content-center">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" data-placeholder="Condição do imóvel"
+                            name="states[]" multiple="multiple" data-placeholder="Status do imóvel">
+                                <option value="sd">Selecione um status</option>
+                            </select>
                         </div>
-                    @endforeach
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center m-auto p-0-50 mt-0-50">
+                        <div class="w-100 d-flex justify-content-center">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" data-placeholder="Cidade"
+                            name="states[]" multiple="multiple" data-placeholder="Status do imóvel">
+                                <option value="sd">Selecione um status</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center m-auto p-0-50 mt-0-50">
+                        <div class="w-100 d-flex justify-content-center">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" data-placeholder="Bairro"
+                            name="states[]" multiple="multiple" data-placeholder="Status do imóvel">
+                                <option value="sd">Selecione um status</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center m-auto p-0-50 mt-0-50">
+                        <div class="w-100 d-flex justify-content-center">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" data-placeholder="Área aproximada"
+                            name="states[]" multiple="multiple" data-placeholder="Status do imóvel">
+                                <option value="sd">Selecione um status</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center m-auto p-0-50 mt-0-50">
+                        <div class="w-100">
+                            <input type="text" class="form-control form-select-mobile" placeholder="Valor mín.">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center m-auto p-0-50 mt-0-50">
+                       <div class="w-100">
+                        <input type="text" class="form-control form-select-mobile" placeholder="Valor máx.">
+                       </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center m-auto p-0-50 mt-0-50">
+                        <div class="w-100">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" name="states[]" 
+                            multiple="multiple" data-placeholder="Quartos">
+                                <option value="">Selecione um status</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center m-auto p-0-50 mt-0-50">
+                        <div class="w-100">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" name="states[]" 
+                            multiple="multiple" data-placeholder="Banheiros">
+                                <option value="">Selecione um status</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center m-auto p-0-50 mt-0-50">
+                        <div class="w-100">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" name="states[]" 
+                            multiple="multiple" data-placeholder="Vagas">
+                                <option value="">Selecione um status</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
             </div> 
-                <div class="col-12 align-items-center d-flex gap-2 mt-1">
-                    <div class="d-flex gap-0-50 justify-content-around ms-auto w-100">
-                            <input type="text" class="form-control form-control-breadcrumb" placeholder="Nome ou código (ex: A001) do imóvel">
-                    </div>
+            <div class="col-12 mt-2 d-lg-none">
+                <input type="text" class="form-control form-control-breadcrumb" placeholder="Nome ou código (ex: A001) do imóvel">
+            </div>
+                <div class="col-12 align-items-center d-flex gap-2 mt-1 justify-content-center justify-content-lg-around">
                     <button class="btn btn-orange rounded-5 my-1" style="">
                         Buscar imóvel
                     </button>
@@ -99,30 +149,84 @@
         <div class="row bg-cinza rounded-5-top m-auto p-1 d-none d-lg-block select-products" style="background-image: url({{ asset("front/images/backgrounds/bg-solutions.png") }});background-size: cover;">
             <div class="col-lg-12 m-auto pt-1">
                 <div class="row m-auto">
-                    @foreach (range(0,4) as $banner)
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center m-auto p-0">
-                            <div class="w-100">
-                                <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" data-placeholder="Tipo do imóvel"
-                                name="states[]" multiple="multiple" data-placeholder="Status do imóvel">
-                                    <option value="sd">Selecione um status</option>
-                                </select>
-                            </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center m-auto p-0">
+                        <div class="w-100">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" data-placeholder="Tipo do imóvel"
+                            name="states[]" multiple="multiple">
+                                <option value="sd">Selecione um status</option>
+                            </select>
                         </div>
-                    @endforeach
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center m-auto p-0">
+                        <div class="w-100">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" data-placeholder="Condição do imóvel"
+                            name="states[]" multiple="multiple">
+                                <option value="sd">Selecione um status</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center m-auto p-0">
+                        <div class="w-100">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" data-placeholder="Cidade"
+                            name="states[]" multiple="multiple">
+                                <option value="sd">Selecione um status</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center m-auto p-0">
+                        <div class="w-100">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" data-placeholder="Bairro"
+                            name="states[]" multiple="multiple">
+                                <option value="sd">Selecione um status</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center m-auto p-0">
+                        <div class="w-100">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" data-placeholder="Área aproximada"
+                            name="states[]" multiple="multiple">
+                                <option value="sd">Selecione um status</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
             </div>  
             <div class="col-lg-12 m-auto">
                 <div class="row m-auto pt-1">
-                    @foreach (range(0,4) as $banner)
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center m-auto p-0">
+                        <div class="w-100">
+                            <input type="text" class="form-control form-select-mobile" placeholder="Valor mín.">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center m-auto p-0">
+                       <div class="w-100">
+                        <input type="text" class="form-control form-select-mobile" placeholder="Valor máx.">
+                       </div>
+                    </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center m-auto p-0">
                         <div class="w-100">
                             <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" name="states[]" 
-                            multiple="multiple" data-placeholder="Status do imóvel">
+                            multiple="multiple" data-placeholder="Quartos">
                                 <option value="">Selecione um status</option>
                             </select>
                         </div>
                     </div>
-                    @endforeach
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center m-auto p-0">
+                        <div class="w-100">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" name="states[]" 
+                            multiple="multiple" data-placeholder="Banheiros">
+                                <option value="">Selecione um status</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center m-auto p-0">
+                        <div class="w-100">
+                            <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" name="states[]" 
+                            multiple="multiple" data-placeholder="Vagas">
+                                <option value="">Selecione um status</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
             </div>  
                 <div class="col-12 align-items-center ps-2 d-flex gap-2 mt-1">
@@ -137,7 +241,7 @@
     </div>
 </section>
 @else
-<section class="position-relative py-4" style="border-top: 1px solid #808080;" data-aos="fade-left">
+<section class="position-relative py-3" style="border-top: 1px solid #808080;" data-aos="fade-left">
     <div class="col-lg-12 position-relative end-0 top-0 d-lg-block" >
         <div class="" style="">
             <div class="position-breadcrumb">

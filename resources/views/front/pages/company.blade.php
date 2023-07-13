@@ -56,7 +56,7 @@
             <div class="">
                 <div class="row g-0">
                     <div class="col-lg-5">
-                        <div class="ratio ratio-21x9">
+                        <div class="ratio ratio-21x9 h-100">
                             <div class="empresa-swiper swiper h-100">
                                 <div class="swiper-wrapper">
                             
@@ -103,7 +103,11 @@
         <section class="py-2">
             <div class="container">
                 <div class="row">
-                    <div class="equipe-swiper swiper h-100">
+                    <h2 class="fs-48 fs-lora w-100 text-center">Nossa equipe</h2>
+                    <p class="fs-16 fw-400 text-center mb-2">
+                        Conheça o time de profissionais que fazem a diferença nos serviços da Bliss.
+                    </p>
+                    <div class="equipe-swiper swiper h-100 mt-1">
                         <div class="swiper-wrapper">
                      
                             @foreach (range(0,4) as $image)

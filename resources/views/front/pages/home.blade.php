@@ -11,16 +11,38 @@
                         <div class="z-index-background position-absolute w-100 h-100 rounded-5 start-50 translate-middle-x" style="opacity: 0.800000011920929;
             background: #808080;"></div>
                         <div class="row p-1">
-                            @foreach (range(0,4) as $banner)
                             <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center align-items-center mb-2 mt-1">
                                 <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" name="states[]" multiple="multiple" 
-                                data-placeholder="Status do imóvel">
+                                data-placeholder="Tipo do imóvel">
                                     <option value="asda1">Selecione um status</option>
                                     <option value="asda2">Selecione um status</option>
                                     <option value="asda3">Selecione um status</option>
                                 </select>
                             </div>
-                            @endforeach
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center align-items-center mb-2 mt-1">
+                                <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" name="states[]" multiple="multiple" 
+                                data-placeholder="Cidade">
+                                    <option value="asda1">Selecione um status</option>
+                                    <option value="asda2">Selecione um status</option>
+                                    <option value="asda3">Selecione um status</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center align-items-center mb-2 mt-1">
+                                <select name="" id="" class="form-select form-select-white my-1 js-example-basic-multiple" name="states[]" multiple="multiple" 
+                                data-placeholder="Bairro">
+                                    <option value="asda1">Selecione um status</option>
+                                    <option value="asda2">Selecione um status</option>
+                                    <option value="asda3">Selecione um status</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 position-relative d-flex justify-content-center align-items-center mb-2 mt-1">
+                                <input type="text" class="form-control form-control-select" placeholder="Valor mín.">
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 position-relative d-flex justify-content-center align-items-center mb-2 mt-1">
+                                <input type="text" class="form-control form-control-select" placeholder="Valor máx.">
+                            </div>
+                            
+                            
                             <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex justify-content-center">
                                 <button class="btn btn-orange rounded-5 my-2" style="padding: 8px 26px;">
                                     Buscar
@@ -120,21 +142,37 @@
                                                                         Exposição    
                                                                     </p>
                                                                     <div class="d-flex gap-xxl-2 gap-1">
-                                                                        @foreach (range(0,3) as $a)
                                                                             <p class="fs-16 fw-400">
-                                                                                <svg class="me-0-50" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                                    <g clip-path="url(#clip0_78_5919)">
-                                                                                    <path d="M1.00006 13.0001V11.5001M15.0001 13.0001V11.5001M2.00006 3.00012V4.50012M2.00006 7.00012V4.50012M14.0001 3.00012V4.50012M14.0001 7.00012V4.50012M14.0001 4.50012H10.6056C9.60255 4.50012 8.66586 5.00143 8.10946 5.83602L8.00006 6.00012L7.89066 5.83602C7.33426 5.00143 6.39757 4.50012 5.39451 4.50012H2.00006M1.00006 11.5001V10.0001C1.00006 8.89555 1.89549 8.00012 3.00006 8.00012H13.0001C14.1046 8.00012 15.0001 8.89555 15.0001 10.0001V11.5001M1.00006 11.5001H15.0001" stroke="#E67F4E" stroke-linejoin="round"/>
-                                                                                    </g>
-                                                                                    <defs>
-                                                                                    <clipPath id="clip0_78_5919">
-                                                                                    <rect width="16" height="16" fill="white"/>
-                                                                                    </clipPath>
-                                                                                    </defs>
-                                                                                </svg>                                                                                                                           
-                                                                                1
+                                                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M1 13V11.5M15 13V11.5M2 3V4.5M2 7V4.5M14 3V4.5M14 7V4.5M14 4.5H10.6056C9.60249 4.5 8.6658 5.0013 8.1094 5.8359L8 6L7.8906 5.8359C7.3342 5.0013 6.39751 4.5 5.39445 4.5H2M1 11.5V10C1 8.89543 1.89543 8 3 8H13C14.1046 8 15 8.89543 15 10V11.5M1 11.5H15" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                                </svg>
+                                                                                3
                                                                             </p>
-                                                                        @endforeach
+                                                                            <p class="fs-16 fw-400">
+                                                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M1 7H15M14 8.5V8.57143C14 9.49873 13.6992 10.401 13.1429 11.1429V11.1429C12.7382 11.6824 12.1031 12 11.4286 12H4.57143C3.89695 12 3.26183 11.6824 2.85714 11.1429V11.1429C2.30076 10.401 2 9.49873 2 8.57143V8.5" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                                    <path d="M3 15V15C3 14.3871 3.34626 13.8269 3.89443 13.5528L4 13.5M12 13.5L12.1056 13.5528C12.6537 13.8269 13 14.3871 13 15V15" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                                    <path d="M3 5.5V2.25C3 1.55964 3.55964 1 4.25 1V1C4.94036 1 5.5 1.55964 5.5 2.25V3" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                                </svg>
+                                                                                    
+                                                                                2
+                                                                            </p>
+                                                                            <p class="fs-16 fw-400">
+                                                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M1.27472 7.96152L1.79278 9.77472C1.91544 10.204 2.30782 10.5 2.7543 10.5H12.8406C13.2406 10.5 13.6022 10.2616 13.7597 9.89392L14.6286 7.86667C14.8371 7.38 14.6302 6.81511 14.1566 6.57832L13.3705 6.18524C13.1333 6.06663 12.9529 5.85865 12.869 5.60704L12.4558 4.36754C12.1836 3.55086 11.4193 3 10.5585 3H7.93675C7.34319 3 6.7803 3.26365 6.40031 3.71963L4.69725 5.7633C4.56873 5.91752 4.39677 6.02949 4.20375 6.08464L1.96152 6.72528C1.43049 6.877 1.123 7.43049 1.27472 7.96152Z" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                                    <path d="M6.5 6.5L11.5 6.5" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                                    <path d="M4 12C4 12.3333 4.2 13 5 13C5.8 13 6 12.3333 6 12M10 12C10 12.3333 10.2 13 11 13C11.8 13 12 12.3333 12 12" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                                    </svg>                                                                                  
+                                                                                    
+                                                                                2
+                                                                            </p>
+                                                                            <p class="fs-16 fw-400">
+                                                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M14 9L8 13L2 9M8 3L2 7L8 11L14 7L8 3Z" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                                    </svg>                                                                                    
+                                                                                160m³
+                                                                            </p>
+
                                                                     </div>
                                                                     <p class="fs-16 fw-700">R$ 1.500.000,00</p>
                                                                     <div class="d-flex gap-1 mt-2">

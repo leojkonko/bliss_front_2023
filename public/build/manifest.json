@@ -1,6 +1,6 @@
 {
   "resources/front/js/main.js": {
-    "file": "assets/main-4b9fa3c6.js",
+    "file": "assets/main-2db366b9.js",
     "isEntry": true,
     "src": "resources/front/js/main.js"
   },
@@ -10,12 +10,12 @@
     "src": "resources/front/js/vendors/bootstrap.bundle.min.js"
   },
   "resources/front/sass/main.scss": {
-    "file": "assets/main-9e89a7df.css",
+    "file": "assets/main-97fd39bd.css",
     "isEntry": true,
     "src": "resources/front/sass/main.scss"
   },
   "resources/front/sass/vendors/bootstrap/bootstrap.scss": {
-    "file": "assets/bootstrap-c22e695f.css",
+    "file": "assets/bootstrap-d295f373.css",
     "isEntry": true,
     "src": "resources/front/sass/vendors/bootstrap/bootstrap.scss"
   },

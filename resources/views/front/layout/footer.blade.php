@@ -211,11 +211,13 @@
                 </div> 
                 <div class="col-lg-9 d-flex justify-content-center d-none d-lg-flex">
                     <div class="col-lg-6 col-12 d-flex justify-content-start align-items-center">
-                        <small class="text-muted small text-center text-lg-start px-1 px-lg-0 ps-lg-4">
-                            <svg class="me-0-50" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5 7V7C3.89543 7 3 7.89543 3 9V12C3 13.1046 3.89543 14 5 14H11C12.1046 14 13 13.1046 13 12V9C13 7.89543 12.1046 7 11 7V7M5 7V5C5 3.34315 6.34315 2 8 2V2C9.65685 2 11 3.34315 11 5V7M5 7H11M8 9.5V11.5" stroke="#808080" stroke-linejoin="round"/>
-                            </svg>                                
-                            Area restita</small>
+                        <a href="">
+                            <small class="text-muted small text-center text-lg-start px-1 px-lg-0 ps-lg-4">
+                                <svg class="me-0-50" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 7V7C3.89543 7 3 7.89543 3 9V12C3 13.1046 3.89543 14 5 14H11C12.1046 14 13 13.1046 13 12V9C13 7.89543 12.1046 7 11 7V7M5 7V5C5 3.34315 6.34315 2 8 2V2C9.65685 2 11 3.34315 11 5V7M5 7H11M8 9.5V11.5" stroke="#808080" stroke-linejoin="round"/>
+                                </svg>                                
+                                Area restita</small>
+                        </a>
                         
                     </div>
                     <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">

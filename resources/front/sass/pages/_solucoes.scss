@@ -23,6 +23,10 @@
     border: none;
 }
 
+.select2-container {
+    width: 100% !important;
+}
+
 .select-products,
 .offcanvas-start-mobile {
     textarea.select2-search__field {
@@ -40,6 +44,13 @@
     .select2-container--default .select2-selection--multiple {
         background-image: url(../../../../public/front/images/icons/seta-dark.svg);
         //background-image: url("../../front/images/icons/seta-dark.svg");
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-position-y: 50%;
+    }
+
+    .select2-container {
+        width: 100% !important;
     }
 }
 
@@ -81,11 +92,15 @@ textarea.select2-search__field {
 .img-selo {
     @media(min-width: 992px) {
         margin-left: auto;
-        margin-top: -8rem;
+        margin-top: -7rem;
     }
 
-    margin: auto;
-    padding-top: 100px;
+    @media(max-width: 992px) {
+        margin: auto;
+        padding-top: 25px;
+    }
+
+
 }
 
 
@@ -106,6 +121,9 @@ textarea.select2-search__field {
         .select2-container--default .select2-selection--multiple {
             background-image: url(../../../../public/front/images/icons/seta.svg);
             //background-image: url("../../front/images/icons/seta-dark.svg");
+            background-repeat: no-repeat;
+            background-position-x: 100%;
+            background-position-y: 50%;
         }
     }
 

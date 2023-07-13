@@ -68,9 +68,8 @@
                                                         </svg>
                                                         Exposição    
                                                     </p>
-                                                    <div class="d-flex gap-2">
-                                                        @foreach (range(0,3) as $a)
-                                                            <p class="fs-16 fw-400">
+                                                    <div class="d-flex gap-2 gap-sm-1 gap-lg-2">
+                                                            <p class="fs-16 fw-400 d-flex">
                                                                 <svg class="me-0-50" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                     <g clip-path="url(#clip0_78_5919)">
                                                                     <path d="M1.00006 13.0001V11.5001M15.0001 13.0001V11.5001M2.00006 3.00012V4.50012M2.00006 7.00012V4.50012M14.0001 3.00012V4.50012M14.0001 7.00012V4.50012M14.0001 4.50012H10.6056C9.60255 4.50012 8.66586 5.00143 8.10946 5.83602L8.00006 6.00012L7.89066 5.83602C7.33426 5.00143 6.39757 4.50012 5.39451 4.50012H2.00006M1.00006 11.5001V10.0001C1.00006 8.89555 1.89549 8.00012 3.00006 8.00012H13.0001C14.1046 8.00012 15.0001 8.89555 15.0001 10.0001V11.5001M1.00006 11.5001H15.0001" stroke="#E67F4E" stroke-linejoin="round"/>
@@ -83,7 +82,28 @@
                                                                 </svg>                                                                                                                           
                                                                 1
                                                             </p>
-                                                        @endforeach
+                                                            <p class="fs-16 fw-400 d-flex">
+                                                                <svg width="16" class="me-0-50" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M1 7H15M14 8.5V8.57143C14 9.49873 13.6992 10.401 13.1429 11.1429V11.1429C12.7382 11.6824 12.1031 12 11.4286 12H4.57143C3.89695 12 3.26183 11.6824 2.85714 11.1429V11.1429C2.30076 10.401 2 9.49873 2 8.57143V8.5" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                    <path d="M3 15V15C3 14.3871 3.34626 13.8269 3.89443 13.5528L4 13.5M12 13.5L12.1056 13.5528C12.6537 13.8269 13 14.3871 13 15V15" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                    <path d="M3 5.5V2.25C3 1.55964 3.55964 1 4.25 1V1C4.94036 1 5.5 1.55964 5.5 2.25V3" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                </svg>                                                                                                                                                                                              
+                                                                1
+                                                            </p>
+                                                            <p class="fs-16 fw-400 d-flex">
+                                                                <svg width="16" class="me-0-50" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M1.27472 7.96152L1.79278 9.77472C1.91544 10.204 2.30782 10.5 2.7543 10.5H12.8406C13.2406 10.5 13.6022 10.2616 13.7597 9.89392L14.6286 7.86667C14.8371 7.38 14.6302 6.81511 14.1566 6.57832L13.3705 6.18524C13.1333 6.06663 12.9529 5.85865 12.869 5.60704L12.4558 4.36754C12.1836 3.55086 11.4193 3 10.5585 3H7.93675C7.34319 3 6.7803 3.26365 6.40031 3.71963L4.69725 5.7633C4.56873 5.91752 4.39677 6.02949 4.20375 6.08464L1.96152 6.72528C1.43049 6.877 1.123 7.43049 1.27472 7.96152Z" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                    <path d="M6.5 6.5L11.5 6.5" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                    <path d="M4 12C4 12.3333 4.2 13 5 13C5.8 13 6 12.3333 6 12M10 12C10 12.3333 10.2 13 11 13C11.8 13 12 12.3333 12 12" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                </svg>                                                                                                                                                                                                                                                                  
+                                                                1
+                                                            </p>
+                                                            <p class="fs-16 fw-400 d-flex">
+                                                                <svg width="16" class="me-0-50" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M14 9L8 13L2 9M8 3L2 7L8 11L14 7L8 3Z" stroke="#E67F4E" stroke-linejoin="round"/>
+                                                                </svg>                                                                                                                                                                                                                                                                                                                                      
+                                                                1m³
+                                                            </p>
                                                     </div>
                                                     <p class="fs-16 fw-700">R$ 1.500.000,00</p>
                                                     <div class="d-flex gap-1 mt-2">
